@@ -19,11 +19,11 @@ type PreyStub struct {
 
 // GetSpeed returns the speed of the prey
 func (ps *PreyStub) GetSpeed() (speed float64) {
-	speed = ps.GetSpeed()
+	speed = ps.GetSpeedFunc()
 	return
 }
 
 func (ps *PreyStub) GetPosition() (position *positioner.Position) {
-	position = ps.GetPosition()
+	position = ps.GetPositionFunc()
 	return
 }
