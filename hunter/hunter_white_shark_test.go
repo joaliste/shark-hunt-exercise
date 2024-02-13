@@ -11,7 +11,7 @@ import (
 )
 
 // Tests for the hunter.NewWhiteShark(implementation of the Hunter interface
-func TestWhiteSharkHunt(t *testing.T) {
+func TestWhiteShark_Hunt(t *testing.T) {
 	t.Run("white shark hunts a prey - has speed and short distance", func(t *testing.T) {
 		// arrange
 		pr := prey.NewPreyStub()
